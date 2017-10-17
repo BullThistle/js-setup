@@ -78,3 +78,8 @@ _Hit enter many times_
 gulp build
  
 ```
+set package.json "test" to "nyc karma start karma.conf.js istanbul"
+
+copy gulpfile.js to project
+
+copy karma.config file to project 

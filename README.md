@@ -46,7 +46,7 @@ bower init
 _Type "y" and enter._
 ```
 bower install jquery --save
-bower install bootstrap --save
+bower install materialize --save
 npm install bower-files --save-dev
 npm install browser-sync --save-dev
  

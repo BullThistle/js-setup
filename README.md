@@ -1,26 +1,3 @@
-## Foundation
-
-_Make sure that foundation cli is globally installed_
-
-```
-npm install -g foundation-cli
-```
-
-_Go to directory you want the new project to be set up in_
-
-```
-foundation new
-```
-
-_Select ZURB template in setup_
-
-_go into project directory and use foundation watch to compile the project_
-
-```
-foundation watch
-```
-
-
 ## Initialize npm
 ```
 npm init
@@ -41,6 +18,18 @@ npm install gulp-jshint --save-dev
 npm install babelify babel-preset-es2015 --save-dev
  
 ```
+## Bower init
+```
+bower init
+```
+
+## Bower packages
+```
+bower install jquery --save
+bower install materialize --save
+npm install bower-files --save-dev
+npm install browser-sync --save-dev
+ ```
 
 ## Test Packages
 

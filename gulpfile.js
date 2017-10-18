@@ -5,7 +5,6 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var utilities = require('gulp-util');
 var del = require('del');
-var jshint = require('gulp-jshint');
 var babelify = require('babelify');
 var lib = require('bower-files')({
   overrides: {
@@ -58,12 +57,6 @@ gulp.task('build', ['clean'], function () {
   gulp.start('bower');
 });
 
-gulp.task('jshint', function () {
-  return gulp.src(['js/*.js'])
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'));
-});
-
 gulp.task('bowerJS', function () {
   return gulp.src(lib.ext('js').files)
     .pipe(concat('vendor.min.js'))
@@ -91,7 +84,7 @@ gulp.task('serve', function () {
 
 });
 
-gulp.task('jsBuild', ['jsBrowserify', 'jshint'], function () {
+gulp.task('jsBuild', ['jsBrowserify'], function () {
   browserSync.reload();
 });
 

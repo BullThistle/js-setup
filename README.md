@@ -57,11 +57,11 @@ _Hit enter many times_
 karma init
 ```
 _Hit enter many times_
-## copy gulpfile.js to project
+_copy gulpfile.js to project_
 
-## copy karma.config file to project 
+_copy karma.config file to project_ 
 
-## set package.json "test" to "nyc karma start karma.conf.js istanbul"
+_set package.json "test" to "nyc karma start karma.conf.js istanbul"_
 
 ```
 gulp build

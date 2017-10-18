@@ -12,6 +12,8 @@ _Go to project directory set up foundation project_
 foundation new
 ```
 
+_Select ZURB template in setup_
+
 ## Initialize npm
 ```
 npm init
@@ -57,11 +59,12 @@ _Hit enter many times_
 karma init
 ```
 _Hit enter many times_
-_copy gulpfile.js to project_
 
-_copy karma.config file to project_ 
+_Copy gulpfile.js to project_
 
-_set package.json "test" to "nyc karma start karma.conf.js istanbul"_
+_Copy karma.config file to project_ 
+
+_Set package.json "test" to "nyc karma start karma.conf.js istanbul"_
 
 ```
 gulp build

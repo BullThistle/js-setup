@@ -6,7 +6,7 @@ _Make sure that foundation cli is globally installed_
 npm install -g foundation-cli
 ```
 
-_Go to project directory set up foundation project_
+_Go to directory you want the new project to be set up in_
 
 ```
 foundation new

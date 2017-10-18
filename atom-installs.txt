@@ -3,6 +3,7 @@ theme:
   dar pastel eighties
   
 packages:
+  enable language-sass
   atom-beutify
   emmet
   file-icons

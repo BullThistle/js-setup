@@ -14,6 +14,13 @@ foundation new
 
 _Select ZURB template in setup_
 
+_go into project directory and use foundation watch to compile the project_
+
+```
+foundation watch
+```
+
+
 ## Initialize npm
 ```
 npm init

@@ -1,0 +1,15 @@
+theme:
+  dark flat
+  dar pastel eighties
+  
+packages:
+  atom-beutify
+  emmet
+  file-icons
+  linter
+  linter-jscs
+  minimap
+  pigments
+  minimap-pigments
+  seve-session  (then remove delete trailing whitespace)
+  
